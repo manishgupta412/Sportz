@@ -1,0 +1,600 @@
+[9/2/2026 17:57:2] [INFO] Instrumenting module:: "events"
+[9/2/2026 17:57:2] [INFO] Instrumenting function ::prototype.addListener 
+[9/2/2026 17:57:2] [INFO] Instrumenting module:: "http"
+[9/2/2026 17:57:2] [INFO] Instrumenting function ::createServer 
+[9/2/2026 17:57:2] [INFO] Instrumenting function ::Server 
+[9/2/2026 17:57:2] [INFO] Instrumenting function ::request 
+[9/2/2026 17:57:2] [INFO] Instrumenting function ::get 
+[9/2/2026 17:57:2] [INFO] Instrumenting module:: "https"
+[9/2/2026 17:57:2] [INFO] Instrumenting function ::createServer 
+[9/2/2026 17:57:2] [INFO] Instrumenting function ::Server 
+[9/2/2026 17:57:2] [INFO] Instrumenting function ::request 
+[9/2/2026 17:57:2] [INFO] Instrumenting function ::get 
+[9/2/2026 17:57:2] [INFO] Instrumenting module:: "http2"
+[9/2/2026 17:57:2] [INFO] Instrumenting function ::createSecureServer 
+[9/2/2026 17:57:2] [INFO] Instrumenting function ::Http2ServerRequest.prototype.setTimeout 
+[9/2/2026 17:57:2] [INFO] Instrumenting function ::Http2ServerResponse.prototype.end 
+[9/2/2026 17:57:2] [INFO] Instrumenting function ::Http2ServerResponse.prototype.setTimeout 
+[9/2/2026 17:57:2] [INFO] Instrumenting function ::Http2ServerResponse.prototype.createPushResponse 
+[9/2/2026 17:57:2] [INFO] Instrumenting module:: "net"
+[9/2/2026 17:57:2] [INFO] Instrumenting function ::Server.prototype.getConnections 
+[9/2/2026 17:57:2] [INFO] Instrumenting function ::Server.prototype.close 
+[9/2/2026 17:57:2] [INFO] Instrumenting function ::Socket.prototype.setTimeout 
+[9/2/2026 17:57:2] [INFO] Instrumenting function ::Socket.prototype.write 
+[9/2/2026 17:57:2] [INFO] Instrumenting function ::Socket.prototype.connect 
+[9/2/2026 17:57:2] [INFO] Instrumenting function ::createConnection 
+[9/2/2026 17:57:2] [INFO] Instrumenting function ::Server.prototype.listen 
+[9/2/2026 17:57:2] [INFO] Instrumenting module:: "fs"
+[9/2/2026 17:57:2] [INFO] Instrumenting function ::access 
+[9/2/2026 17:57:2] [INFO] Instrumenting function ::ftruncate 
+[9/2/2026 17:57:2] [INFO] Instrumenting function ::mkdir 
+[9/2/2026 17:57:2] [INFO] Instrumenting function ::mkdtemp 
+[9/2/2026 17:57:2] [INFO] Instrumenting function ::readdir 
+[9/2/2026 17:57:2] [INFO] Instrumenting function ::readFile 
+[9/2/2026 17:57:2] [INFO] Instrumenting function ::readlink 
+[9/2/2026 17:57:2] [INFO] Instrumenting function ::realpath 
+[9/2/2026 17:57:2] [INFO] Instrumenting function ::truncate 
+[9/2/2026 17:57:2] [INFO] Instrumenting function ::appendFile 
+[9/2/2026 17:57:2] [INFO] Instrumenting function ::symlink 
+[9/2/2026 17:57:2] [INFO] Instrumenting function ::copyFile 
+[9/2/2026 17:57:2] [INFO] Instrumenting function ::open 
+[9/2/2026 17:57:2] [INFO] Instrumenting function ::writeFile 
+[9/2/2026 17:57:2] [INFO] Instrumenting function ::chmod 
+[9/2/2026 17:57:2] [INFO] Instrumenting function ::fchmod 
+[9/2/2026 17:57:2] [INFO] lchmod is undefined in module::fs 
+[9/2/2026 17:57:2] [INFO] Instrumenting function ::link 
+[9/2/2026 17:57:2] [INFO] Instrumenting function ::rename 
+[9/2/2026 17:57:2] [INFO] Instrumenting function ::chown 
+[9/2/2026 17:57:2] [INFO] Instrumenting function ::fchown 
+[9/2/2026 17:57:2] [INFO] Instrumenting function ::lchown 
+[9/2/2026 17:57:2] [INFO] Instrumenting function ::futimes 
+[9/2/2026 17:57:2] [INFO] Instrumenting function ::utimes 
+[9/2/2026 17:57:2] [INFO] Instrumenting function ::close 
+[9/2/2026 17:57:2] [INFO] Instrumenting function ::exists 
+[9/2/2026 17:57:2] [INFO] Instrumenting function ::fdatasync 
+[9/2/2026 17:57:2] [INFO] Instrumenting function ::fstat 
+[9/2/2026 17:57:2] [INFO] Instrumenting function ::fsync 
+[9/2/2026 17:57:2] [INFO] Instrumenting function ::lstat 
+[9/2/2026 17:57:2] [INFO] Instrumenting function ::stat 
+[9/2/2026 17:57:2] [INFO] Instrumenting function ::rmdir 
+[9/2/2026 17:57:2] [INFO] Instrumenting function ::unlink 
+[9/2/2026 17:57:2] [INFO] Instrumenting function ::read 
+[9/2/2026 17:57:2] [INFO] Instrumenting function ::write 
+[9/2/2026 17:57:2] [INFO] realpath.native is undefined in module::fs 
+[9/2/2026 17:57:2] [INFO] Instrumenting module:: "dns"
+[9/2/2026 17:57:2] [INFO] Instrumenting function ::lookupService 
+[9/2/2026 17:57:2] [INFO] Instrumenting function ::lookup 
+[9/2/2026 17:57:2] [INFO] Instrumenting function ::resolve 
+[9/2/2026 17:57:2] [INFO] Instrumenting function ::resolve4 
+[9/2/2026 17:57:2] [INFO] Instrumenting function ::resolve6 
+[9/2/2026 17:57:2] [INFO] Instrumenting function ::resolveCname 
+[9/2/2026 17:57:2] [INFO] Instrumenting function ::resolveMx 
+[9/2/2026 17:57:2] [INFO] Instrumenting function ::resolveNaptr 
+[9/2/2026 17:57:2] [INFO] Instrumenting function ::resolveNs 
+[9/2/2026 17:57:2] [INFO] Instrumenting function ::resolvePtr 
+[9/2/2026 17:57:2] [INFO] Instrumenting function ::resolveSoa 
+[9/2/2026 17:57:2] [INFO] Instrumenting function ::resolveSrv 
+[9/2/2026 17:57:2] [INFO] Instrumenting function ::resolveTxt 
+[9/2/2026 17:57:2] [INFO] Instrumenting function ::resolveAny 
+[9/2/2026 17:57:2] [INFO] Instrumenting function ::reverse 
+[9/2/2026 17:57:2] [INFO] Instrumenting module:: "crypto"
+[9/2/2026 17:57:2] [INFO] Instrumenting function ::pbkdf2 
+[9/2/2026 17:57:2] [INFO] Instrumenting function ::randomBytes 
+[9/2/2026 17:57:2] [INFO] Instrumenting function ::randomFill 
+[9/2/2026 17:57:2] [INFO] Instrumenting function ::generateKeyPair 
+[9/2/2026 17:57:2] [INFO] Instrumenting function ::scrypt 
+[9/2/2026 17:57:2] [INFO] Instrumenting module:: "domain"
+[9/2/2026 17:57:2] [INFO] Instrumenting function ::Domain.prototype.bind 
+[9/2/2026 17:57:2] [INFO] Instrumenting function ::Domain.prototype.intercept 
+[9/2/2026 17:57:2] [INFO] Instrumenting module:: "zlib"
+[9/2/2026 17:57:2] [INFO] Instrumenting function ::Deflate.prototype.close 
+[9/2/2026 17:57:2] [INFO] Instrumenting function ::Inflate.prototype.close 
+[9/2/2026 17:57:2] [INFO] Instrumenting function ::Gzip.prototype.close 
+[9/2/2026 17:57:2] [INFO] Instrumenting function ::Gunzip.prototype.close 
+[9/2/2026 17:57:2] [INFO] Instrumenting function ::DeflateRaw.prototype.close 
+[9/2/2026 17:57:2] [INFO] Instrumenting function ::InflateRaw.prototype.close 
+[9/2/2026 17:57:2] [INFO] Instrumenting function ::Unzip.prototype.close 
+[9/2/2026 17:57:2] [INFO] Instrumenting function ::Deflate.prototype.flush 
+[9/2/2026 17:57:2] [INFO] Instrumenting function ::Inflate.prototype.flush 
+[9/2/2026 17:57:2] [INFO] Instrumenting function ::Gzip.prototype.flush 
+[9/2/2026 17:57:2] [INFO] Instrumenting function ::Gunzip.prototype.flush 
+[9/2/2026 17:57:2] [INFO] Instrumenting function ::DeflateRaw.prototype.flush 
+[9/2/2026 17:57:2] [INFO] Instrumenting function ::InflateRaw.prototype.flush 
+[9/2/2026 17:57:2] [INFO] Instrumenting function ::Unzip.prototype.flush 
+[9/2/2026 17:57:2] [INFO] Instrumenting function ::Deflate.prototype.params 
+[9/2/2026 17:57:2] [INFO] Instrumenting function ::deflate 
+[9/2/2026 17:57:2] [INFO] Instrumenting function ::deflateRaw 
+[9/2/2026 17:57:2] [INFO] Instrumenting function ::gunzip 
+[9/2/2026 17:57:2] [INFO] Instrumenting function ::gzip 
+[9/2/2026 17:57:2] [INFO] Instrumenting function ::inflate 
+[9/2/2026 17:57:2] [INFO] Instrumenting function ::inflateRaw 
+[9/2/2026 17:57:2] [INFO] Instrumenting function ::unzip 
+[9/2/2026 17:57:2] [INFO] Instrumenting module:: "child_process"
+[9/2/2026 17:57:2] [INFO] Instrumenting function ::exec 
+[9/2/2026 17:57:2] [INFO] Instrumenting function ::execFile 
+[9/2/2026 17:57:2] [INFO] Instrumenting module:: "cluster"
+[9/2/2026 17:57:2] [INFO] Instrumenting function ::disconnect 
+[9/2/2026 17:57:2] [INFO] Instrumenting function ::Worker.prototype.send 
+[9/2/2026 17:57:2] [INFO] Instrumenting module:: "process"
+[9/2/2026 17:57:2] [INFO] Instrumenting function ::send 
+[9/2/2026 17:57:2] [INFO] Instrumenting function ::nextTick 
+[9/2/2026 17:57:2] [INFO] Instrumenting module:: "dgram"
+[9/2/2026 17:57:2] [INFO] Instrumenting function ::Socket.prototype.bind 
+[9/2/2026 17:57:2] [INFO] Instrumenting function ::Socket.prototype.close 
+[9/2/2026 17:57:2] [INFO] Instrumenting function ::Socket.prototype.send 
+[9/2/2026 17:57:2] [INFO] Instrumenting function ::createSocket 
+[9/2/2026 17:57:2] [INFO] Instrumenting module:: "tls"
+[9/2/2026 17:57:2] [INFO] Instrumenting function ::connect 
+[9/2/2026 17:57:2] [INFO] Instrumenting function ::TLSSocket.prototype.renegotiate 
+[9/2/2026 17:57:2] [INFO] Instrumenting module:: "stream"
+[9/2/2026 17:57:2] [INFO] Instrumenting function ::Writable.prototype.write 
+[9/2/2026 17:57:2] [INFO] Instrumenting function ::Writable.prototype.end 
+[9/2/2026 17:57:2] [INFO] Instrumenting function ::finished 
+[9/2/2026 17:57:2] [INFO] Instrumenting function ::pipeline 
+[9/2/2026 17:57:2] [INFO] Instrumenting module:: "global"
+[9/2/2026 17:57:2] [INFO] Instrumenting function ::setImmediate 
+[9/2/2026 17:57:2] [INFO] Instrumenting function ::setTimeout 
+[9/2/2026 17:57:2] [INFO] Instrumenting module:: "inspector"
+[9/2/2026 17:57:2] [INFO] Instrumenting function ::Session.prototype.post 
+[9/2/2026 17:57:2] [INFO] Instrumenting module:: "worker_threads"
+[9/2/2026 17:57:2] [INFO] Instrumenting function ::Worker.prototype.terminate 
+[9/2/2026 17:57:2] [INFO] Instrumenting module:: "readline"
+[9/2/2026 17:57:2] [INFO] Instrumenting function ::Interface.prototype.question 
+[9/2/2026 17:57:2] [INFO] Dependencies : {"@arcjet/inspect":"^1.0.0-beta.17","@arcjet/node":"^1.0.0-beta.17","apminsight":"^5.2.1","dotenv":"^17.2.3","drizzle-orm":"^0.45.1","express":"^5.2.1","pg":"^8.17.2","ws":"^8.19.0","zod":"^4.3.5"} 
+[9/2/2026 17:57:2] [INFO] Application not hosted in Kubernetes. 
+[9/2/2026 17:57:2] [ERROR] HTTP request error: connect ENETUNREACH 169.254.169.254:80 
+[9/2/2026 17:57:2] [ERROR] HTTP request error: connect ENETUNREACH 169.254.169.254:80 
+[9/2/2026 17:57:2] [INFO] Application not hosted in AWS. 
+[9/2/2026 17:57:2] [ERROR] HTTP request error: connect ENETUNREACH 169.254.169.254:80 
+[9/2/2026 17:57:2] [INFO] Application not hosted in Azure 
+[9/2/2026 17:57:2] [ERROR] HTTP request error: getaddrinfo ENOTFOUND metadata.google.internal 
+[9/2/2026 17:57:2] [INFO] Application not hosted in GCP 
+[9/2/2026 17:57:2] [ERROR] HTTP request error: connect ENETUNREACH 169.254.170.2:80 
+[9/2/2026 17:57:2] [INFO] Application not hosted in docker. 
+[9/2/2026 17:57:2] [INFO] Application not hosted in AWS_Fargate 
+[9/2/2026 17:57:3] [INFO] intiating /arh/connect request to plusinsight.site24x7.eu:443 
+[9/2/2026 17:57:4] [INFO] Response data for /arh/connect {"result":true,"data":{"response-code":702}}
+[9/2/2026 17:57:4] [CRITICAL] received response code : "LICENSE_INSTANCES_EXCEEDED"
+[9/2/2026 17:58:2] [INFO] Dependencies : {"@arcjet/inspect":"^1.0.0-beta.17","@arcjet/node":"^1.0.0-beta.17","apminsight":"^5.2.1","dotenv":"^17.2.3","drizzle-orm":"^0.45.1","express":"^5.2.1","pg":"^8.17.2","ws":"^8.19.0","zod":"^4.3.5"} 
+[9/2/2026 17:58:2] [INFO] intiating /arh/connect request to plusinsight.site24x7.eu:443 
+[9/2/2026 17:58:2] [INFO] data processing starts 
+[9/2/2026 17:58:2] [CRITICAL]  Unknown response code ::undefined 
+[9/2/2026 17:58:2] [INFO] intiating /arh/data request to plusinsight.site24x7.eu:443 
+[9/2/2026 17:58:2] [INFO] data processing ends 
+[9/2/2026 17:58:2] [INFO] Response data for /arh/data {"result":true,"data":{"response-code":901}}
+[9/2/2026 17:58:2] [CRITICAL] received response code : "INVALID_AGENT"
+[9/2/2026 17:58:3] [INFO] Response data for /arh/connect {"result":true,"data":{"response-code":702}}
+[9/2/2026 17:58:3] [CRITICAL] received response code : "LICENSE_INSTANCES_EXCEEDED"
+[9/2/2026 17:58:6] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 17:58:8] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 17:58:8] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 17:58:9] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 17:58:10] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 17:58:12] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 17:58:14] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 17:58:15] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 17:58:15] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 17:58:16] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 17:58:17] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 17:58:17] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 17:58:18] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 17:58:18] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 17:58:19] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 17:58:20] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 17:58:20] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 17:58:21] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 17:58:21] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 17:58:22] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 17:58:22] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 17:58:23] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 17:58:25] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 17:58:26] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 17:58:27] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 17:58:27] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 17:58:28] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 17:58:29] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 17:58:29] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 17:58:30] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 17:58:30] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 17:58:31] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 17:58:33] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 17:58:34] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 17:58:35] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 17:58:35] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 17:58:36] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 17:58:36] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 17:58:37] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 17:58:38] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 17:58:38] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 17:58:39] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 17:58:40] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 17:58:42] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 17:58:42] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 17:58:43] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 17:58:43] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 17:58:44] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 17:58:44] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 17:58:45] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 17:58:45] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 17:58:46] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 17:58:46] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 17:58:47] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 17:58:49] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 17:58:49] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 17:58:51] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 17:58:52] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 17:58:53] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 17:58:54] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 17:58:54] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 17:58:55] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 17:58:56] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 17:58:57] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 17:58:58] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 17:58:58] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 17:59:0] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 17:59:1] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 17:59:1] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 17:59:2] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 17:59:2] [INFO] Dependencies : {"@arcjet/inspect":"^1.0.0-beta.17","@arcjet/node":"^1.0.0-beta.17","apminsight":"^5.2.1","dotenv":"^17.2.3","drizzle-orm":"^0.45.1","express":"^5.2.1","pg":"^8.17.2","ws":"^8.19.0","zod":"^4.3.5"} 
+[9/2/2026 17:59:2] [INFO] intiating /arh/connect request to plusinsight.site24x7.eu:443 
+[9/2/2026 17:59:2] [INFO] data processing starts 
+[9/2/2026 17:59:2] [CRITICAL]  Unknown response code ::undefined 
+[9/2/2026 17:59:2] [INFO] intiating /arh/data request to plusinsight.site24x7.eu:443 
+[9/2/2026 17:59:2] [INFO] data processing ends 
+[9/2/2026 17:59:2] [INFO] Response data for /arh/data {"result":true,"data":{"response-code":901}}
+[9/2/2026 17:59:2] [CRITICAL] received response code : "INVALID_AGENT"
+[9/2/2026 17:59:2] [INFO] Response data for /arh/connect {"result":true,"data":{"response-code":702}}
+[9/2/2026 17:59:2] [CRITICAL] received response code : "LICENSE_INSTANCES_EXCEEDED"
+[9/2/2026 17:59:7] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 17:59:8] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 17:59:9] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 17:59:10] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 17:59:10] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 17:59:11] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 17:59:13] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 17:59:15] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 17:59:16] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 17:59:16] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 17:59:18] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 17:59:18] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 17:59:19] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 17:59:20] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 17:59:20] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 17:59:21] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 17:59:21] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 17:59:22] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 17:59:22] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 17:59:23] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 17:59:24] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 17:59:25] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 17:59:25] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 17:59:26] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 17:59:27] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 17:59:28] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 17:59:29] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 17:59:29] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 17:59:30] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 17:59:30] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 17:59:31] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 17:59:32] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 17:59:32] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 17:59:33] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 17:59:33] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 17:59:35] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 17:59:36] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 17:59:37] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 17:59:38] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 17:59:39] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 17:59:39] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 17:59:40] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 17:59:41] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 17:59:41] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 17:59:42] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 17:59:43] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 17:59:44] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 17:59:44] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 17:59:45] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 17:59:46] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 17:59:47] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 17:59:48] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 17:59:48] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 17:59:49] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 17:59:50] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 17:59:51] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 17:59:52] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 17:59:53] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 17:59:53] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 17:59:54] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 17:59:55] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 17:59:56] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 17:59:56] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 17:59:57] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 17:59:57] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 17:59:58] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 17:59:59] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 18:0:0] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 18:0:1] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 18:0:2] [INFO] Dependencies : {"@arcjet/inspect":"^1.0.0-beta.17","@arcjet/node":"^1.0.0-beta.17","apminsight":"^5.2.1","dotenv":"^17.2.3","drizzle-orm":"^0.45.1","express":"^5.2.1","pg":"^8.17.2","ws":"^8.19.0","zod":"^4.3.5"} 
+[9/2/2026 18:0:2] [INFO] intiating /arh/connect request to plusinsight.site24x7.eu:443 
+[9/2/2026 18:0:2] [INFO] data processing starts 
+[9/2/2026 18:0:2] [CRITICAL]  Unknown response code ::undefined 
+[9/2/2026 18:0:2] [INFO] intiating /arh/data request to plusinsight.site24x7.eu:443 
+[9/2/2026 18:0:2] [INFO] data processing ends 
+[9/2/2026 18:0:2] [INFO] Response data for /arh/data {"result":true,"data":{"response-code":901}}
+[9/2/2026 18:0:2] [CRITICAL] received response code : "INVALID_AGENT"
+[9/2/2026 18:0:3] [INFO] Response data for /arh/connect {"result":true,"data":{"response-code":702}}
+[9/2/2026 18:0:3] [CRITICAL] received response code : "LICENSE_INSTANCES_EXCEEDED"
+[9/2/2026 18:0:6] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 18:0:7] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 18:0:7] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 18:0:10] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 18:0:11] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 18:0:11] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 18:0:12] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 18:0:14] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 18:0:14] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 18:0:15] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 18:0:15] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 18:0:17] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 18:0:18] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 18:0:19] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 18:0:19] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 18:0:20] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 18:0:21] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 18:0:21] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 18:0:23] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 18:0:24] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 18:0:25] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 18:0:25] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 18:0:26] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 18:0:27] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 18:0:27] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 18:0:28] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 18:0:28] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 18:0:30] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 18:0:30] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 18:0:30] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 18:0:31] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 18:0:31] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 18:0:33] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 18:0:34] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 18:0:34] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 18:0:35] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 18:0:36] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 18:0:37] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 18:0:37] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 18:0:38] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 18:0:39] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 18:0:39] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 18:0:40] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 18:0:41] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 18:0:41] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 18:0:41] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 18:0:42] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 18:0:43] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 18:0:43] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 18:0:44] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 18:0:44] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 18:0:45] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 18:0:45] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 18:0:46] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 18:0:46] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 18:0:48] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 18:0:49] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 18:0:49] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 18:0:50] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 18:0:52] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 18:0:53] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 18:0:53] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 18:0:54] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 18:0:54] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 18:0:55] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 18:0:55] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 18:0:57] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 18:0:57] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 18:0:57] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 18:0:58] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 18:0:59] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 18:0:59] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 18:1:0] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 18:1:1] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 18:1:1] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 18:1:1] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 18:1:2] [INFO] Dependencies : {"@arcjet/inspect":"^1.0.0-beta.17","@arcjet/node":"^1.0.0-beta.17","apminsight":"^5.2.1","dotenv":"^17.2.3","drizzle-orm":"^0.45.1","express":"^5.2.1","pg":"^8.17.2","ws":"^8.19.0","zod":"^4.3.5"} 
+[9/2/2026 18:1:2] [INFO] intiating /arh/connect request to plusinsight.site24x7.eu:443 
+[9/2/2026 18:1:2] [INFO] data processing starts 
+[9/2/2026 18:1:2] [CRITICAL]  Unknown response code ::undefined 
+[9/2/2026 18:1:2] [INFO] intiating /arh/data request to plusinsight.site24x7.eu:443 
+[9/2/2026 18:1:2] [INFO] data processing ends 
+[9/2/2026 18:1:3] [INFO] Response data for /arh/connect {"result":true,"data":{"response-code":702}}
+[9/2/2026 18:1:3] [CRITICAL] received response code : "LICENSE_INSTANCES_EXCEEDED"
+[9/2/2026 18:1:3] [INFO] Response data for /arh/data {"result":true,"data":{"response-code":901}}
+[9/2/2026 18:1:3] [CRITICAL] received response code : "INVALID_AGENT"
+[9/2/2026 18:1:3] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 18:1:9] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 18:1:10] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 18:1:10] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 18:1:11] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 18:1:11] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 18:1:12] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 18:1:12] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 18:1:13] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 18:1:14] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 18:1:14] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 18:1:15] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 18:1:15] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 18:1:16] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 18:1:16] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 18:1:17] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 18:1:18] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 18:1:19] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 18:1:20] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 18:1:20] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 18:1:21] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 18:1:22] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 18:1:22] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 18:1:23] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 18:1:24] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 18:1:25] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 18:1:26] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 18:1:26] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 18:1:27] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 18:1:28] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 18:1:28] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 18:1:29] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 18:1:29] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 18:1:30] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 18:1:31] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 18:1:32] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 18:1:33] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 18:1:34] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 18:1:34] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 18:1:35] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 18:1:35] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 18:1:36] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 18:1:37] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 18:1:38] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 18:1:39] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 18:1:39] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 18:1:40] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 18:1:40] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 18:1:41] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 18:1:42] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 18:1:43] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 18:1:43] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 18:1:44] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 18:1:44] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 18:1:45] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 18:1:45] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 18:1:46] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 18:1:46] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 18:1:48] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 18:1:49] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 18:1:49] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 18:1:50] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 18:1:51] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 18:1:52] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 18:1:53] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 18:1:54] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 18:1:55] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 18:1:58] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 18:1:59] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 18:1:59] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 18:2:0] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 18:2:0] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 18:2:1] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 18:2:2] [INFO] Dependencies : {"@arcjet/inspect":"^1.0.0-beta.17","@arcjet/node":"^1.0.0-beta.17","apminsight":"^5.2.1","dotenv":"^17.2.3","drizzle-orm":"^0.45.1","express":"^5.2.1","pg":"^8.17.2","ws":"^8.19.0","zod":"^4.3.5"} 
+[9/2/2026 18:2:2] [INFO] intiating /arh/connect request to plusinsight.site24x7.eu:443 
+[9/2/2026 18:2:2] [INFO] data processing starts 
+[9/2/2026 18:2:2] [CRITICAL]  Unknown response code ::undefined 
+[9/2/2026 18:2:2] [INFO] intiating /arh/data request to plusinsight.site24x7.eu:443 
+[9/2/2026 18:2:2] [INFO] data processing ends 
+[9/2/2026 18:2:3] [INFO] Response data for /arh/data {"result":true,"data":{"response-code":901}}
+[9/2/2026 18:2:3] [CRITICAL] received response code : "INVALID_AGENT"
+[9/2/2026 18:2:3] [INFO] Response data for /arh/connect {"result":true,"data":{"response-code":702}}
+[9/2/2026 18:2:3] [CRITICAL] received response code : "LICENSE_INSTANCES_EXCEEDED"
+[9/2/2026 18:2:6] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 18:2:8] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 18:2:8] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 18:2:10] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 18:2:10] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 18:2:11] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 18:2:12] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 18:2:13] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 18:2:15] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 18:2:15] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 18:2:16] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 18:2:16] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 18:2:17] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 18:2:18] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 18:2:19] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 18:2:20] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 18:2:21] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 18:2:21] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 18:2:22] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 18:2:23] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 18:2:23] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 18:2:24] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 18:2:24] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 18:2:25] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 18:2:27] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 18:2:27] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 18:2:28] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 18:2:28] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 18:2:30] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 18:2:30] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 18:2:31] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 18:2:31] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 18:2:31] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 18:2:31] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 18:2:33] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 18:2:33] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 18:2:34] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 18:2:35] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 18:2:36] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 18:2:37] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 18:2:37] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 18:2:37] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 18:2:40] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 18:2:40] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 18:2:41] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 18:2:42] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 18:2:42] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 18:2:43] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 18:2:43] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 18:2:43] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 18:2:44] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 18:2:44] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 18:2:45] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 18:2:48] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 18:2:49] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 18:2:49] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 18:2:50] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 18:2:51] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 18:2:51] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 18:2:52] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 18:2:52] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 18:2:53] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 18:2:53] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 18:2:54] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 18:2:55] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 18:2:55] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 18:2:56] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 18:2:57] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 18:2:58] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 18:2:58] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 18:2:58] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 18:2:59] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 18:3:0] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 18:3:2] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 18:3:2] [INFO] Dependencies : {"@arcjet/inspect":"^1.0.0-beta.17","@arcjet/node":"^1.0.0-beta.17","apminsight":"^5.2.1","dotenv":"^17.2.3","drizzle-orm":"^0.45.1","express":"^5.2.1","pg":"^8.17.2","ws":"^8.19.0","zod":"^4.3.5"} 
+[9/2/2026 18:3:2] [INFO] intiating /arh/connect request to plusinsight.site24x7.eu:443 
+[9/2/2026 18:3:2] [INFO] data processing starts 
+[9/2/2026 18:3:2] [CRITICAL]  Unknown response code ::undefined 
+[9/2/2026 18:3:2] [INFO] intiating /arh/data request to plusinsight.site24x7.eu:443 
+[9/2/2026 18:3:2] [INFO] data processing ends 
+[9/2/2026 18:3:2] [INFO] Response data for /arh/data {"result":true,"data":{"response-code":901}}
+[9/2/2026 18:3:2] [CRITICAL] received response code : "INVALID_AGENT"
+[9/2/2026 18:3:3] [INFO] Response data for /arh/connect {"result":true,"data":{"response-code":702}}
+[9/2/2026 18:3:3] [CRITICAL] received response code : "LICENSE_INSTANCES_EXCEEDED"
+[9/2/2026 18:3:6] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 18:3:7] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 18:3:8] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 18:3:9] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 18:3:10] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 18:3:11] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 18:3:13] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 18:3:13] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 18:3:13] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 18:3:14] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 18:3:15] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 18:3:16] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 18:3:16] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 18:3:17] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 18:3:17] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 18:3:19] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 18:3:19] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 18:3:20] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 18:3:20] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 18:3:21] [CRITICAL] txn dropped due to sampling factor 
+[9/2/2026 18:3:22] [CRITICAL] txn dropped due to sampling factor 
